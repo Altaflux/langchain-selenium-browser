@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist/ && tsc -p tsconfig.json ",
-    "publish": "bash scripts/release-branch.sh && turbo run build lint && npm run release -w langchain-selenium-browser && echo '🔗 Open https://github.com/Altaflux/langchain-selenium-browser/compare/release?expand=1 and merge the release PR'"
+    "publish": "bash scripts/release-branch.sh && npm run build lint && npm run release -w langchain-selenium-browser && echo '🔗 Open https://github.com/Altaflux/langchain-selenium-browser/compare/release?expand=1 and merge the release PR'"
   },
   "author": "Altaflux",
   "repository": {
