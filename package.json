@@ -1,6 +1,6 @@
 {
   "name": "langchain-selenium-browser",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Selenium Web browser tool for langchain",
   "main": "dist/index.js",
   "scripts": {
